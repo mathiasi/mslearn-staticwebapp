@@ -20,6 +20,21 @@
             "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
             "scopes": ["openid", "profile"]
           }
+        },
+        "myprovider2": {
+          "registration": {
+            "clientIdSettingName": "MY_PROVIDER_CLIENT_ID",
+            "clientCredential": {
+              "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
+            },
+            "openIdConnectConfiguration": {
+              "wellKnownOpenIdConfiguration": "https://oidc-testing.livelycliff-d96b9608.westeurope.azurecontainerapps.io/.well-known/openid-configuration"
+            }
+          },
+          "login": {
+            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+            "scopes": ["openid", "profile"]
+          }
         }
       }
     }
