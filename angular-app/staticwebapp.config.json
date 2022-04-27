@@ -6,7 +6,7 @@
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
-        "myProvider": {
+        "myprovider": {
           "registration": {
             "clientIdSettingName": "MY_PROVIDER_CLIENT_ID",
             "clientCredential": {
